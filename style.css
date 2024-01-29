@@ -58,7 +58,7 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     background: black;
-    color: darkblue;
+    color: rgb(7, 7, 107);
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff;
     margin-right: 50px;
     text-align: center;
