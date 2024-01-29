@@ -2,6 +2,8 @@
 
 This repository contains the code for my professional portfolio website, highlighting my personal experiences. Background images are sourced from carefully curated public free domains.
 
+**Note: The code in this repository is from the `master` branch. Please ensure that you are on the `master` branch when running the code.**
+
 ## Features
 
 - **Scrolling Parallax**: Provide an immersive and dynamic browsing experience with a scrolling parallax effect. Background elements move at different speeds based on the scroll position., creating a visually engaging effect.
