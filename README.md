@@ -38,4 +38,4 @@ git clone https://github.com/LaviniaThosatriavi/Portfolio-Website.git
 
 ## Contributing
 
-Contributions to the project are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Let's make this portfolio website even better together.
+Contributions to the project are welcome! If you have any ideas, suggestions, or bug fixes to support my personal website project, please open an issue or submit a pull request. 
