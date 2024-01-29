@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.background {
+    margin: 0 auto;
+    width: 100%;
+    height: 768px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 768px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: #1d1d4f;
+    padding: 60px;
+    position: relative;
+  }
+
+
+
+.container .box {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: black;
+    color: darkblue;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    transition: top 0.5s ease;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5 ease;
+    opacity: 0;
+}
+
+.box:hover {
+    top: -10px;
+    transform: scale(1.1);
+    backdrop-filter: blur(5px);
+}
+
+.box:hover .box-content {
+    opacity: 1
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+.layer-3{
+    position: absolute;
+}
+
+.layer-3 h1 {
+    margin-top: 80px;
+}
+
+.layer-3 p {
+    max-width: 600px;
+    text-indent: 0;
+    text-align: center;
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+
+.layer-3 a {
+    background-color: #7ff5ff;
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #514c9c;
+
+}

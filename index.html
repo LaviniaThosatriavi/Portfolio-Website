@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="background">
+        <img class="layer-1" src="background.png">
+        <img class="layer-2" src="meteor.png">
+
+        <div class="layer-3">
+            <h1>LAVINIA THOSATRIAVI</h1>
+            <p>Hi! I'm Lavinia, Engineering student @HKU! I am eager to continuously learn and refine my programming skills ^_^</p>
+            <p>Currently seeking for internship opportunities in dynamic teams!</p>
+    
+            <a href=#teks>About Me</a><br>
+            <a href="LaviniaThosatriavi_CV.pdf">Download my CV!</a>
+
+        </div>
+        <img class="layer-4" src="4.png">
+        <img class="layer-5" src="5.png">
+        <img src="6.png">
+    </div>
+
+    <div class="container" id="teks">
+        <h1>EXPERIENCES</h1>
+        <div class="box" style="background-image: url(cathay.JPG)"> 
+            <div class="box-content">
+                Cathay Hackathon 2023
+                <br>Finalist
+            </div>
+        </div>
+        <div class="box" style="background-image: url(hkgcc.jpg)">
+            <div class="box-content">
+                HKGCC x Chevalier Case Competition 2024
+                <br>2nd Runner Up
+            </div>
+        </div>
+        <div class="box" style="background-image: url(valedictorian.jpg)">
+            <div class="box-content">
+                High School Valedictorian
+                <br>First Place in Indonesia - CS and Math ALevel
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content" style="background-image: url(hkctf.png)">
+                HKCTF Cybersecurity Challenge 2023
+                <br>Participant
+            </div>
+        </div>
+        <br>
+
+      </div>
+
+    <script type="text/javascript">
+        let layer_1 = document.querySelector('.layer-1');
+        let layer_2 = document.querySelector('.layer-2');
+        let layer_3 = document.querySelector('.layer-3');
+        let layer_4 = document.querySelector('.layer-4');
+        let layer_5 = document.querySelector('.layer-5');
+
+        window.onscroll = function(){
+            let Y=window.scrollY;
+            layer_1.style.transform='translateY('+ Y/1.5 +'px)';
+            layer_2.style.transform='translateY('+ Y/2 +'px)';
+            layer_3.style.transform='translateY('+ Y/1.5 +'px)';
+            layer_4.style.transform='translateY('+ Y/2 +'px)';
+            layer_5.style.transform='translateY('+ Y/3 +'px)';
+
+        }
+    </script>
+
+</body>
+</html>
